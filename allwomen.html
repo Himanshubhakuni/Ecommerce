@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cards in Carousel</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+  <link rel="stylesheet" href="all.css">
+</head>
+<body>
+  <nav class="navbar bg-dark shadow">
+    <div class="container-fluid">
+      <img src="logo2.png" alt="" style="height: 50px;">
+        <form class="d-flex">
+            
+          <input class="form" type="search" placeholder="Search" aria-label="Search">
+          <button type="button" class="btn btn-primary" style="background-color: orange;">Search</button>
+    
+        </form>
+        
+        <li class="navbar">
+        <a class="nav-link" target="_blank" href="login.html">
+            <button   class="btn btn-primary"  style="background-color: orange;">login</button>
+        </a>
+        </li>
+ 
+
+    <li class="nav-link">
+        <a class="nav-link" href="cart.html" target="_blank" style="color: orange;">
+        <i class="cart fa fa-shopping-cart"></i>
+        </a>
+       </li>
+       
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+       
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active"  aria-current="page" href="f.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"  href="allproduct.html">All Products</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="allwomen.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Women
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="allwomen.html">All</a></li>
+                <li><a class="dropdown-item"  href="dresseswome.html">Dresses</a></li>
+                <li><a class="dropdown-item" href="womenpants.html">Pants</a></li>
+                <li><a class="dropdown-item" href="skirtswomen.html">Skirts</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="allmen.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Men
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="allmen.html">All</a></li>
+              <li><a class="dropdown-item" href="menshirts.html">Shirts</a></li>
+              <li><a class="dropdown-item" href="menpants.html">Pants</a></li>
+              <li><a class="dropdown-item" href="menhoodies.html">Hoodies</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kids.html">Kids</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"target="_blank" href="contac.html">Contact us</a>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+      <H1> <CENter> ALL PRODUCT</CENter></H1>
+      <div class="row row-cols-2  row-cols-md-3 row-cols-lg-6 g-5 " style="text-align: center;">
+        <div class="col">
+          <div class="card" style="width: 200px;">
+           <img src="jeans1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women jeans</h5>
+              <h7 class="card-text" style="font-weight: bold;">$15</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              <button onclick="window.location.href= 'cart.html';" class="btn-btn-buy" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>   
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+            <img src="jeasns2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women jeans</h5>
+              <h7 class="card-text" style="font-weight: bold;">$8</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              
+              <button onclick="window.location.href= 'cart.html';" class="buy-btn" href="cart.html" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+            <img src="menjeans2.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Men jeans</h5>
+                <h7 class="card-text" style="font-weight: bold;">$15</h7>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              <button class="buy-btn" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+           <img src="women shirts.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women shirt</h5>
+              <h7 class="card-text" style="font-weight: bold;">$48</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+            <button onclick="window.location.href= 'cart.html';" class="buy-btn" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+            <img src="menjeans2.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Men jeans</h5>
+              <h7 class="card-text" style="font-weight: bold;">$15</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+            <button class="buy-btn" style=" background-color: orange;">Add to cart
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+           <img src="womenshirt3.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Women shirt</h5>
+                <h7 class="card-text" style="font-weight: bold;">$35</h7>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              <button class="buy-btn" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+            <img src="saree1.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Saree</h5>
+              <h7 class="card-text" style="font-weight: bold;">$45</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+            <button class="buy-btn" style=" background-color: orange;">Add to cart
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+            <img src="saree3.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Saree</h5>
+              <h7 class="card-text" style="font-weight: bold;">$45</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+            <button class="buy-btn" style=" background-color: orange;">Add to cart
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+            <img src="sare2.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Saree</h5>
+              <h7 class="card-text" style="font-weight: bold;">$55</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+            <button class="buy-btn" style=" background-color: orange;">Add to cart
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+           <img src="womenshirt3.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Women shirt</h5>
+                <h7 class="card-text" style="font-weight: bold;">$35</h7>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              <button class="buy-btn" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 200px;">
+           <img src="jeans1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women jeans</h5>
+              <h7 class="card-text" style="font-weight: bold;">$15</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              <button onclick="window.location.href= 'cart.html';" class="btn-btn-buy" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>   
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+            <img src="jeasns2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women jeans</h5>
+              <h7 class="card-text" style="font-weight: bold;">$8</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              
+              <button onclick="window.location.href= 'cart.html';" class="buy-btn" href="cart.html" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+            <img src="menjeans2.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Men jeans</h5>
+                <h7 class="card-text" style="font-weight: bold;">$15</h7>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              <button class="buy-btn" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+           <img src="women shirts.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women shirt</h5>
+              <h7 class="card-text" style="font-weight: bold;">$48</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+            <button onclick="window.location.href= 'cart.html';" class="buy-btn" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 200px;">
+           <img src="jeans1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women jeans</h5>
+              <h7 class="card-text" style="font-weight: bold;">$15</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              <button onclick="window.location.href= 'cart.html';" class="btn-btn-buy" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>   
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+            <img src="jeasns2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women jeans</h5>
+              <h7 class="card-text" style="font-weight: bold;">$8</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              
+              <button onclick="window.location.href= 'cart.html';" class="buy-btn" href="cart.html" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+            <img src="menjeans2.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Men jeans</h5>
+                <h7 class="card-text" style="font-weight: bold;">$15</h7>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+              <button class="buy-btn" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card"style="width: 200px;">
+           <img src="women shirts.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Women shirt</h5>
+              <h7 class="card-text" style="font-weight: bold;">$48</h7>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic enim earum!</p>
+            <button onclick="window.location.href= 'cart.html';" class="buy-btn" style=" background-color: orange;">Add to cart
+                  <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start bg-dark">
+      <!-- Grid container -->
+      <div class="container p-5" style="color: whitesmoke;">
+        <!--Grid row-->
+        <div class="row"">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-0
+           mb-md-0">
+            <h5 class="text-uppercase">Womens</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="dresseswome.html" class="text-light" style="text-decoration:none">Dresses</a>
+              </li>
+              <li>
+                  <a href="womenpants.html" class="text-light" style="text-decoration:none">Pants</a>
+              </li>
+              <li>
+                  <a href="skirtswomen.html" class="text-light" style="text-decoration:none">Skirts</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md">
+            <h5 class="text-uppercase">Mens</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                  <li>
+                      <a href="menshirts.html" class="text-light" style="text-decoration:none">Shirts</a>
+                    </li>
+                    <li>
+                        <a href="menpants.html" class="text-light" style="text-decoration:none">Pants</a>
+                    </li>
+                    <li>
+                        <a href="menhoodies.html" class="text-light" style="text-decoration:none">hoodies</a>
+                    </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Kids</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                  <a href="kids.html" class="text-light" style="text-decoration:none">Rompers</a>
+              </li>
+              <li>
+                  <a href="kids.html" class="text-light" style="text-decoration:none">Bib</a>
+              </li>
+              <li>
+                  <a href="kids.html" class="text-light" style="text-decoration:none">Overall</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                  <a href="f.html" class="text-light" style="text-decoration:none">Home</a>
+                </li>
+                <li>
+                    <a href="login.html" class="text-light" style="text-decoration:none">Log in</a>
+                </li>
+                <li>
+                    <a href="contac.html" class="text-light" style="text-decoration:none">Contact us</a>
+                </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+  
+    
+     
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.988); color: white;">
+       Copyright:
+        <a class="text-light" href="https://mdbootstrap.com/" style="text-decoration:none;">E commerce 2022-23</a>
+      </div>
+      
+    </footer>
+</body>
+</html>
